@@ -1,0 +1,35 @@
+{
+  "id": "dndbeyond-character-sheet",
+  "title": "DNDBeyond Character Sheet for 5E",
+  "description": "This module adds an additional character sheet inspired by DNDBeyond and the Obsidian character sheet.",
+  "authors": [
+    {
+      "name": "Jan Ole Peek (ChalkOne)",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  },
+  "url": "https://github.com/jopeek/fvtt-dndbeyond-character-sheet",
+  "version": "1.10.0",
+  "esmodules": [
+    "/dndbeyond-character-sheet.js"
+  ],
+  "styles": [
+    "/css/dndbeyond-character-sheet.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json",
+  "download": "https://github.com/jopeek/fvtt-dndbeyond-character-sheet/archive/master.zip"
+}
